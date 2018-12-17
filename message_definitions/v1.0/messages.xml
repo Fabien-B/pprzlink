@@ -1500,7 +1500,23 @@
       <field name="delay_ns" type="uint32"/>
     </message>
 
-    <!-- 181 is free -->
+    <message name="TO_ATC" id="181">
+      <field name="flight"   type="char[]"/>
+      <field name="callsign" type="char[]"/>
+      <field name="lat"      type="float" unit="deg"/>
+      <field name="lon"      type="float" unit="deg"/> 
+      <field name="alt"      type="float" unit="m"/>
+      <field name="track"    type="float" unit="deg"/>
+      <field name="speed"    type="float" unit="m/s"/>
+      <field name="vspeed"   type="float" unit="m/s"/>
+      <field name="heading"  type="float" unit="deg"/>
+      <field name="pitch"    type="float" unit="deg"/>
+      <field name="roll"     type="float" unit="deg"/>
+      <field name="tacode"   type="char[]"/>
+      <field name="company"  type="char[]"/>
+      <field name="model"    type="char[]"/>
+    </message>
+
     <!-- 182 is free -->
     <!-- 183 is free -->
     <!-- 184 is free -->
